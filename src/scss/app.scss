@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-// variables
+/* variables */
 $btn-height: 44px;
 
-// Header
+/* Header */
 .header{
     display: grid;
     grid-template-areas: "header-logo header-menu header-icons";
@@ -23,7 +23,7 @@ $btn-height: 44px;
     @media (max-width: 768px) {
         grid-template-areas: "header-menu header-logo header-icons";
     }
-    // submenu
+    /* submenu */
     .nav__item{
         &:hover{
             .nav__item-submenu{
@@ -37,14 +37,14 @@ $btn-height: 44px;
     }
 }
 
-// Helpers
+/* Helpers */
 .page-width{
     max-width: var(--page-width);
     margin: 0 auto;
     padding: 0 1rem;
 }
 
-// buttons
+/* buttons */
 .shopify-payment-button{
     button{
         @apply bg-black text-white rounded-sm;
@@ -60,15 +60,15 @@ $btn-height: 44px;
     min-height: $btn-height;
 }
 
-// product form
+/* product form */
 .product-form__input{
-    // select label after checked radio input 
+    /* select label after checked radio input */
     input[type='radio']:checked + label{
         @apply bg-black text-white;
     }
 }
 
-// Collection filter
+/* Collection filter */
 .filter-form{
     .filter-group{
         &[open]{
