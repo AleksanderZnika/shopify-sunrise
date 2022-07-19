@@ -2,6 +2,7 @@
   "current": {
     "colors_solid_button_labels": "#9c2222",
     "colors_accent_1": "#430e0e",
+    "colors_outline_button_labels": "#c11f1f",
     "type_header_font": "avenir_next_n6",
     "type_body_font": "avenir_next_n4",
     "sections": {
